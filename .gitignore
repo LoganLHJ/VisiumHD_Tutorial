@@ -1,0 +1,11 @@
+# Generated outputs
+results/
+
+# Local or temporary files
+bin/
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+.env
