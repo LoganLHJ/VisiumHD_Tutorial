@@ -3,7 +3,7 @@ An exploratory, reproducible Scanpy/Squidpy workflow for the public GEO dataset 
 
 This tutorial is intended for researchers getting started with Visium HD spatial transcriptomics. You can run all eight notebooks automatically or explore them interactively in JupyterLab.
 
-Tested configuration: macOS (Apple Silicon), Python 3.11, Conda environment `visiumHD`. All eight notebooks passed on 2026-10-18. Windows and Linux have not been tested.
+**Tested platforms**: macOS (Apple Silicon) and Windows, using Python 3.11 and a Conda environment. The complete eight-notebook pipeline has been successfully executed on both platforms. Linux has not been tested.
 
 > Scope: This is an exploratory bin-level workflow, not single-cell identification. The original GitHub workflow does not perform Tangram mapping or reference-based cell-type deconvolution.
 
@@ -25,6 +25,8 @@ Run notebooks in numerical order. Later steps may depend on files produced by ea
 
 ## 2. Download the project
 Install [Git](https://git-scm.com/) and a Conda distribution such as [Miniforge](https://github.com/conda-forge/miniforge) if you do not already have them.
+
+**Windows users**: We recommend using **Anaconda Prompt** to set up the Conda environment and run the analysis pipeline. On macOS, use a Conda-enabled terminal.
 
 In a Conda-enabled terminal, run:
 
